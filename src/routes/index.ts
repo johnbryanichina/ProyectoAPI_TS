@@ -17,8 +17,6 @@ readdirSync(PATH_ROUTER).filter((fileName)=>{
             console.log(`Se está cargando la ruta .... /${cleanName}`);
             router.use(`/${cleanName}`, moduleRouter.router);
         });
-
-        //router.use(`/${cleanName}`)
     }
 })
 

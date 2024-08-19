@@ -17,7 +17,7 @@ const getItems=(req:Request, res:Response)=>{
 const postItem=(req:Request, res:Response)=>{
     try {
     } catch (e) {
-       handleHttp(res,'ERROR_POST_ITEM');
+       handleHttp(res,'ERROR_POST_BLOG');
     }
 }
 const updateItem=(req:Request, res:Response)=>{

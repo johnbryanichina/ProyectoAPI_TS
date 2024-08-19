@@ -1,5 +1,5 @@
-import {Schema,Types,model, Model} from "mongoose"
-import { instrument } from "../interfaces/instruments.interface"
+import {Schema,Types,model, Model} from "mongoose";
+import { instrument } from "../interfaces/instruments.interface";
 
 const ItemSchema = new Schema<instrument>(
     {
@@ -22,7 +22,7 @@ const ItemSchema = new Schema<instrument>(
         },
         price:{
             type:Number,
-            required:true,
+            required:true,  
         }
     },
     {
@@ -31,5 +31,5 @@ const ItemSchema = new Schema<instrument>(
     }
 );
 
-const itemModel = model('items',ItemSchema);
+const itemModel = model('instrument',ItemSchema);
 export default itemModel;
