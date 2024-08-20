@@ -36,6 +36,4 @@ const deleteItem=(req:Request, res:Response)=>{
 
 export {getItem,getItems,updateItem,deleteItem,postItem};
 
-function interItem(body: any) {
-    throw new Error("Function not implemented.");
-}
+ 
